@@ -209,3 +209,23 @@
   }
 }
 
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 480px) {
+  .list-container li::before {
+    left: -2px;
+    top: 10px;
+  }
+
+  .list-container li.checked::before {
+    height: 20px;
+    width: 20px;
+    top: 12px;
+  }
+}
